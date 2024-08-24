@@ -294,8 +294,8 @@ body {
 /* HOME START */
 
 .home {
-  background: #ffffff url(img/bg-prewed4.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg-prewed4.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   background-blend-mode: lighten;
   background-position: center;
   background-size: cover;
@@ -371,8 +371,8 @@ body {
 -------------------------------------------------------------------*/
 
 .about-box {
-  background: #ffffff url(img/bg5.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   padding: 70px 0px;
@@ -416,8 +416,8 @@ body {
 /* BATAS INFO */
 
 .info {
-  background: #ffffff url(img/bg5.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   color: rgb(1, 1, 1);
@@ -559,8 +559,8 @@ body {
 /* WEDDING GIFT START*/
 
 .gift {
-  background: #ffffff url(img/bg5.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   color: rgb(1, 1, 1);
@@ -722,8 +722,8 @@ body {
 }
 
 .gallery {
-  background: #ffffff url(img/bg5.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -740,8 +740,8 @@ body {
 }
 
 .gallery h2 {
-  background: #ffffff url(img/bg5.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   color: var(--bg);
   font-family: "Yellowtail", cursive;
   font-size: 4rem;
@@ -767,8 +767,8 @@ body {
 }
 
 .gallery2 {
-  background: #ffffff url(img/bg5.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -820,8 +820,8 @@ body {
 
 .rsvp {
   padding-top: 6.5rem;
-  background: #ffffff url(img/bg5.jpg) center center/cover repeat fixed;
-  background-color: rgba(255, 255, 255, 0);
+  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
