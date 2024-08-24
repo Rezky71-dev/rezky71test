@@ -294,8 +294,7 @@ body {
 /* HOME START */
 
 .home {
-  background: url(img/bg-prewed4.jpg) center center/cover repeat fixed;
-
+  background: url(img/home.png) center center/cover repeat fixed;
   background-blend-mode: lighten;
   background-position: center;
   background-size: cover;
@@ -371,7 +370,7 @@ body {
 -------------------------------------------------------------------*/
 
 .about-box {
-  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background: url(img/bg5.png) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -416,7 +415,7 @@ body {
 /* BATAS INFO */
 
 .info {
-  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background: url(img/bg5.png) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -559,7 +558,7 @@ body {
 /* WEDDING GIFT START*/
 
 .gift {
-  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background: url(img/bg5.png) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -722,7 +721,7 @@ body {
 }
 
 .gallery {
-  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background: url(img/bg5.png) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -740,7 +739,7 @@ body {
 }
 
 .gallery h2 {
-  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background: url(img/bg5.png) center center/cover repeat fixed;
   background-color: #fff;
   color: var(--bg);
   font-family: "Yellowtail", cursive;
@@ -767,7 +766,7 @@ body {
 }
 
 .gallery2 {
-  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background: url(img/bg5.png) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -820,7 +819,7 @@ body {
 
 .rsvp {
   padding-top: 6.5rem;
-  background: url(img/bg5.jpg) center center/cover repeat fixed;
+  background: url(img/bg5.png) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -882,7 +881,7 @@ body {
 /* THANKS START */
 
 .thanks {
-  background: url(img/bg-prewed4.jpg) center center/cover repeat fixed;
+  background: url(img/thanks.png) center center/cover repeat fixed;
   background-color: rgba(255, 255, 255, 0);
   background-position: center;
   background-size: cover;
