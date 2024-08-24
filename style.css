@@ -295,7 +295,7 @@ body {
 
 .home {
   background: url(img/bg-prewed4.jpg) center center/cover repeat fixed;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;
   background-position: center;
   background-size: cover;
@@ -882,7 +882,7 @@ body {
 /* THANKS START */
 
 .thanks {
-  background: #ffffff url(img/bg-prewed4.jpg) center center/cover repeat fixed;
+  background: url(img/bg-prewed4.jpg) center center/cover repeat fixed;
   background-color: rgba(255, 255, 255, 0);
   background-position: center;
   background-size: cover;
@@ -1444,6 +1444,10 @@ footer li {
     .hero .card-footer {
       font-size: 1.5rem;
       font-weight: 500;
+    }
+
+    .bukapeta a {
+      box-shadow: none;
     }
   }
 }
