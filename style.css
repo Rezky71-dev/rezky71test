@@ -178,12 +178,12 @@ body {
 }
 
 .hero a {
+  font-size: 2rem;
   font-family: "Yellowtail", cursive;
   color: #000;
   background-color: #fff;
   border: 1px solid #fff;
   cursor: pointer;
-  padding: 10px;
   border: 1px solid #000;
   box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
   -webkit-box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
@@ -1268,41 +1268,18 @@ footer li {
   .home .heart {
     display: none;
   }
-
-  .timeline::before {
-    left: 60px;
-  }
-
-  .timeline li .timeline-image {
-    left: 15px;
-    margin-left: 45px;
-    top: 16px;
-  }
-
-  .timeline li .timeline-panel {
-    width: calc((100% - 200px));
-    float: right;
-  }
-
-  .timeline li .timeline-panel::before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto;
-  }
-
-  .timeline li .timeline-panel::after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -13px;
-    right: auto;
-  }
 }
 
 /* tablet */
 @media (max-width: 768px) {
   html {
     font-size: 65%;
+  }
+
+  .hero a {
+    min-width: fit-content;
+    font-size: 1rem;
+    box-shadow: none;
   }
 
   .sticky-top {
@@ -1339,23 +1316,10 @@ footer li {
       padding: 45px;
       margin: 3px;
     }
-
-    .timeline li .timeline-image {
-      width: 80px;
-      height: 80px;
-    }
-
-    .timeline li .timeline-panel {
-      width: 65%;
-      transform: translateX(-20px);
-    }
-
-    .timeline li .timeline-panel::before {
-      top: 30px;
-    }
-
-    .timeline li .timeline-panel::after {
-      top: 31px;
+    .hero a {
+      min-width: fit-content;
+      font-size: 1rem;
+      box-shadow: none;
     }
 
     .home img {
@@ -1421,10 +1385,6 @@ footer li {
       margin-bottom: 30px;
     }
 
-    .hero a {
-      font-size: 1.2rem;
-    }
-
     .info .bukapeta a {
       font-size: 1.8rem;
     }
@@ -1439,24 +1399,30 @@ footer li {
       margin-right: auto;
     }
 
+    .hero a {
+      min-width: fit-content;
+      font-size: 1rem;
+      box-shadow: none;
+    }
+
     .hero h4 {
-      font-size: 6rem;
+      font-size: 4rem;
     }
 
     .hero h1 {
-      font-size: 9rem;
+      font-size: 7rem;
     }
 
     .hero .card-header {
-      font-size: 3rem;
+      font-size: 2rem;
     }
 
     .hero .card-body {
-      font-size: 5rem;
+      font-size: 3rem;
     }
 
     .hero .card-footer {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 500;
     }
 
