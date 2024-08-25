@@ -168,7 +168,7 @@ body {
   font-size: 6rem;
   font-weight: 800;
   text-shadow: 5px 5px 5px black;
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
   animation: mySlidetop 3s ease 0.5s 1 normal forwards;
 }
 
@@ -217,12 +217,13 @@ body {
 }
 
 .hero .card-body {
-  font-family: "Yellowtail", cursive;
-  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
   font-size: 3rem;
-  text-shadow: 1px 1px 1px rgb(30, 69, 24);
+  text-shadow: 1px 1px 2px rgb(255, 252, 252);
   text-align: center;
   border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .hero .card-footer {
@@ -836,7 +837,7 @@ body {
 }
 
 .rsvp p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   color: rgb(0, 0, 0);
   text-shadow: 1px 1px 5px var(--pink);
@@ -876,7 +877,21 @@ body {
   width: 90%;
 }
 
+.rsvp #info_kirim {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
 /* RSVP END */
+
+.fb-comments {
+  width: 800px;
+  height: 1500px;
+  background-color: pink;
+}
 
 /* THANKS START */
 

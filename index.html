@@ -68,6 +68,14 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v20.0"
+      nonce="ulQIrS9K"
+    ></script>
     <!-- LOADER -->
     <div id="preloader">
       <div class="preloader pulsa">
@@ -88,10 +96,10 @@
           <div class="row justify-content-center">
             <div class="col">
               <div class="card text-center" style="border: none">
-                <div class="card-header">Kepada Yth.</div>
+                <div class="card-header">Kepada Yth. <span></span></div>
                 <div class="card-body">
                   <div class="row justify-content-center">
-                    <div class="col">Nama Tamu</div>
+                    <div class="col"><span></span></div>
                   </div>
                 </div>
                 <div class="card-footer">
@@ -596,7 +604,7 @@
         <form
           class="row row-cols-md-auto g-3 align-items-center justify-content-center"
           method="POST"
-          action="https://script.google.com/macros/s/AKfycbyddFbEJRqwEeA6OmZAuNf0jw_B30ZUOS5qSDwlAKV_nurcW7H6osJx2ZWnIeTmPm_35g/exec"
+          action="https://script.google.com/macros/s/AKfycby0XlbSG8MfEbU9ngPvjIPX2YgJclUho-WXCkK9gD3xWfeMJGXJYnfm9YKmfdEsK1ck/exec"
           id="my-form"
         >
           <div class="col-12">
@@ -622,9 +630,8 @@
           </div>
           <div class="col-12">
             <div class="mb-3">
-              <label for="status" class="form-label">Konfirmasi</label>
+              <label for="status" class="form-label">Pilih Salah Satu</label>
               <select name="status" id="status" class="form-select">
-                <option selected>Pilih salah satu</option>
                 <option value="Hadir">Hadir</option>
                 <option value="Tidak Hadir">Tidak Hadir</option>
               </select>
@@ -634,11 +641,15 @@
             <button class="btn btn-primary">Kirim</button>
           </div>
         </form>
+        <p id="info_kirim">
+          Setelah klik "Kirim" mohon tunggu beberapa detik sampai ada
+          notifikasi.
+        </p>
 
         <div class="row justify-content-center mt-5">
           <h2>Ucapan & Doa</h2>
           <p id="komen">
-            Cara berkomentar: <br />1. Login atau sign up terlebih dahulu
+            Panduan berkomentar: <br />1. Login atau sign up terlebih dahulu
             <br />2. Atau isikan nama dan email lalu centang "I'd rather post as
             a guest"
           </p>
@@ -675,19 +686,11 @@
       </div>
     </section>
 
-    <div id="fb-root"></div>
-    <script
-      async
-      defer
-      crossorigin="anonymous"
-      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v20.0"
-      nonce="3rtqh9oG"
-    ></script>
     <div
       class="fb-comments"
-      data-href="file:///D:/HTML/Airezwedding/index.html#"
-      data-width="500px"
-      data-numposts="5"
+      data-href="https://rezky71-dev.github.io/rezky71test/#"
+      data-width="800px"
+      data-numposts="10"
     ></div>
 
     <section id="thanks" class="thanks">
@@ -960,6 +963,7 @@
       // }
       disableScroll();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script>
       window.addEventListener("load", function () {
         const form = document.getElementById("my-form");
@@ -971,20 +975,28 @@
             method: "POST",
             body: data,
           }).then(() => {
-            alert("Konfirmasi kehadiran berhasil terkirim!");
+            Swal.fire({
+              //displays a pop up with sweetalert
+              icon: "success",
+              title: "Konfirmasi Kehadiran Terkirim. Terimakasih!",
+              showConfirmButton: false,
+              timer: 2500,
+            });
           });
         });
       });
     </script>
+
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const nama = urlParams.get("n") || "";
       const pronoun = urlParams.get("p") || "Bapak/Ibu/Saudara/i";
-      const namaContainer = document.querySelector(".hero h4 span");
-      namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
+      const namaContainer = document.querySelector(".hero .card-body span");
+      namaContainer.innerText = `${pronoun} ${nama}`.replace(/ ,$/, ",");
 
       document.querySelector("#nama").value = nama;
     </script>
+
     <!-- ALL JS FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/custom.js"></script>
