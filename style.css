@@ -145,7 +145,7 @@ body {
   background-position: center;
   background-size: cover;
   min-height: 100vh;
-  z-index: 5;
+  z-index: 1;
   animation: myHerobg 3s ease 0s 1 normal both;
 }
 
@@ -1441,5 +1441,15 @@ footer li {
     .bukapeta a {
       box-shadow: none;
     }
+
+    .simply-countdown > .simply-section {
+      padding: 45px;
+      margin: -3px;
+    }
+    /* .navbar-toggler {
+      overflow: hidden;
+      display: none;
+      visibility: hidden;
+    } */
   }
 }

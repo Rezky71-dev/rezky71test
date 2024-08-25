@@ -108,6 +108,33 @@
       </main>
     </section>
 
+    <script>
+      var elem = document.documentElement;
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) {
+          /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) {
+          /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
+
+      function closeFullscreen() {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          /* Safari */
+          document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+          /* IE11 */
+          document.msExitFullscreen();
+        }
+      }
+    </script>
+
     <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
       <div class="container">
         <a class="navbar-brand" href="#">Airez Wedding</a>
@@ -118,8 +145,9 @@
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
+          onclick="openFullscreen();"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="bi bi-arrows-fullscreen"></span>
         </button>
         <div
           class="offcanvas offcanvas-end"
@@ -136,6 +164,7 @@
               class="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
+              onclick="closeFullscreen();"
             ></button>
           </div>
           <div class="offcanvas-body">
@@ -704,8 +733,12 @@
             >
             <small class="block"
               >Design by
+              <a href="https://www.instagram.com/dkdlsldbzl/" target="_blank"
+                >Nursaeni Karomah</a
+              >
+              Web Developer by
               <a href="https://www.instagram.com/rootz.devgan/" target="_blank"
-                >@rezkyanugrah</a
+                >Rezky Anugrah</a
               >
               .</small
             >
@@ -814,8 +847,7 @@
       selectBox1Btn.addEventListener("click", () => {
         selectBox1Btn.style.animation = "myExit 1s ease 0s 1 normal both";
         box2.style.animation = "myExit 1s ease 0s 1 normal both";
-        selectNav.style.zIndex = "99";
-        box1.style.animation = "step-end";
+        selectNav.style.zIndex = "2";
       });
     </script>
 
