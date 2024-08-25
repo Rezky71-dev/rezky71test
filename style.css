@@ -887,12 +887,6 @@ body {
 
 /* RSVP END */
 
-.fb-comments {
-  width: 800px;
-  height: 1500px;
-  background-color: pink;
-}
-
 /* THANKS START */
 
 .thanks {
@@ -1405,12 +1399,22 @@ footer li {
       box-shadow: none;
     }
 
+    .hero img {
+      width: 40px;
+      height: 30px;
+    }
+
+    .hero .tamu {
+      padding-top: 20rem;
+    }
+
     .hero h4 {
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
 
     .hero h1 {
-      font-size: 7rem;
+      font-size: 5rem;
+      margin-left: -5rem;
     }
 
     .hero .card-header {
