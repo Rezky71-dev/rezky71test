@@ -983,6 +983,10 @@ footer li {
   margin: 0.5rem;
 }
 
+.footer p {
+  white-space: pre-line;
+}
+
 .audio-icon-wrapper {
   width: 4rem;
   height: 4rem;
