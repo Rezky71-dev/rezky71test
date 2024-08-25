@@ -1290,6 +1290,12 @@ footer li {
     text-align: center;
   }
 
+  .navbar-toggler {
+    overflow: hidden;
+    display: none;
+    visibility: hidden;
+  }
+
   .timeline li .timeline-image {
     width: 140px;
     height: 140px;
@@ -1312,7 +1318,7 @@ footer li {
 
     .simply-countdown > .simply-section {
       padding: 45px;
-      margin: 3px;
+      margin: -10px;
     }
     .hero a {
       min-width: fit-content;
@@ -1329,6 +1335,11 @@ footer li {
 
     .hero .card-body {
       font-size: 2rem;
+    }
+    .navbar-toggler {
+      overflow: hidden;
+      display: none;
+      visibility: hidden;
     }
   }
 
@@ -1352,18 +1363,6 @@ footer li {
       padding: 5px 15px;
     }
 
-    .lbox-details h1 {
-      font-size: 24px;
-    }
-    .lbox-details h2 {
-      font-size: 18px;
-    }
-    .lbox-details p strong {
-      font-size: 20px;
-    }
-    .lbox-details a.btn {
-      display: none;
-    }
     .title-box h2 {
       font-size: 48px;
     }
@@ -1444,12 +1443,12 @@ footer li {
 
     .simply-countdown > .simply-section {
       padding: 45px;
-      margin: -3px;
+      margin: -10px;
     }
-    /* .navbar-toggler {
+    .navbar-toggler {
       overflow: hidden;
       display: none;
       visibility: hidden;
-    } */
+    }
   }
 }
