@@ -1326,8 +1326,9 @@ footer li {
       height: 100px;
       mix-blend-mode: difference;
     }
+
     .hero .card-body {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -1429,7 +1430,7 @@ footer li {
     }
 
     .hero .card-body {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     .hero .card-footer {
