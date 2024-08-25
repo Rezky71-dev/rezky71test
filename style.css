@@ -1270,6 +1270,10 @@ footer li {
     font-size: 65%;
   }
 
+  .hero .tamu {
+    padding-top: 30rem;
+  }
+
   .hero a {
     min-width: fit-content;
     font-size: 1rem;
@@ -1299,6 +1303,10 @@ footer li {
   @media (max-width: 576px) {
     html {
       font-size: 60%;
+    }
+
+    .hero .tamu {
+      padding-top: 30rem;
     }
 
     .info .iframe {
@@ -1405,7 +1413,7 @@ footer li {
     }
 
     .hero .tamu {
-      padding-top: 25rem;
+      padding-top: 30rem;
     }
 
     .hero h4 {
