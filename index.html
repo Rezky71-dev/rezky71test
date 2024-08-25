@@ -836,10 +836,6 @@
       const box2 = document.querySelector(".hero");
       const nav = document.querySelector(".navbar");
 
-      console.log(box1.style);
-      console.log(box2.style);
-      console.log(nav.style);
-
       const selectBox1Btn = document.querySelector(".hero a");
       const selectBox2Btn = document.querySelector(".hero");
       const selectNav = document.querySelector(".navbar");
@@ -848,6 +844,7 @@
         selectBox1Btn.style.animation = "myExit 1s ease 0s 1 normal both";
         box2.style.animation = "myExit 1s ease 0s 1 normal both";
         selectNav.style.zIndex = "2";
+        document.querySelector("*").requestFullscreen();
       });
     </script>
 
@@ -921,14 +918,6 @@
     <script>
       const stickyTop = document.querySelector(".sticky-top");
       const offcanvas = document.querySelector(".offcanvas");
-
-      offcanvas.addEventListener("show.bs.offcanvas", function () {
-        stickyTop.style.overflow = "visible";
-      });
-
-      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
-        stickyTop.style.overflow = "hidden";
-      });
     </script>
 
     <script>
