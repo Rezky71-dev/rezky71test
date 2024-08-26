@@ -345,7 +345,7 @@ body {
 .home .wedding h3 {
   font-family: "Tangerine", cursive;
   color: #fff;
-  font-size: 7.5rem;
+  font-size: 5.5rem;
   font-weight: 600;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
@@ -378,6 +378,10 @@ body {
   background-size: cover;
   padding: 70px 0px;
   position: relative;
+}
+
+#about h3 {
+  font-size: 2rem;
 }
 
 .about-box p {
@@ -983,10 +987,6 @@ footer li {
   margin: 0.5rem;
 }
 
-.footer p {
-  white-space: pre-line;
-}
-
 .audio-icon-wrapper {
   width: 4rem;
   height: 4rem;
@@ -1499,6 +1499,10 @@ footer li {
       font-style: italic;
       color: #0a0a0a;
       font-weight: 600;
+    }
+
+    .footer p {
+      white-space: pre-line;
     }
   }
 }
