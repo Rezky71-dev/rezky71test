@@ -149,18 +149,10 @@ body {
   z-index: 1;
   animation: myHerobg 3s ease 0s 1 normal both;
 }
-
-.hero h1,
-.hero h4,
-.hero p {
-  text-shadow: var(--shadow);
-}
-
 .hero h4 {
   font-family: "Courier New", Courier, monospace;
   font-size: 3rem;
   font-weight: 800;
-  text-shadow: 5px 5px 5px black;
   animation: mySlidetop 3s ease 0s 1 normal forwards;
 }
 
@@ -168,14 +160,12 @@ body {
   font-family: "Sacramento", cursive;
   font-size: 6rem;
   font-weight: 800;
-  text-shadow: 5px 5px 5px black;
   padding-bottom: 6rem;
   animation: mySlidetop 3s ease 0.5s 1 normal forwards;
 }
 
 .hero p {
   font-size: 1.4rem;
-  text-shadow: 5px 5px 5px black;
 }
 
 .hero a {
@@ -213,7 +203,6 @@ body {
   font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
   font-weight: 500;
 }
 
@@ -221,7 +210,6 @@ body {
   font-family: "Times New Roman", Times, serif;
   color: #000000;
   font-size: 3rem;
-  text-shadow: 1px 1px 2px rgb(255, 252, 252);
   text-align: center;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.4);
@@ -230,7 +218,6 @@ body {
 .hero .card-footer {
   font-size: 1rem;
   font-weight: 500;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
 @keyframes myHerobg {
@@ -312,11 +299,17 @@ body {
   height: auto;
 }
 
+.home h1,
+h2,
+h3,
+p {
+  text-shadow: 1px 1px 0.5px #000000;
+}
+
 .home h1 {
   color: #fff;
   font-family: "Yellowtail", cursive;
   font-size: 5rem;
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 .gifts h2,
@@ -324,7 +317,6 @@ body {
   color: var(--bg);
   font-family: "Yellowtail", cursive;
   font-size: 5rem;
-  text-shadow: 1px 1px 5px white;
 }
 
 .home .wedding {
@@ -339,7 +331,6 @@ body {
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .home .wedding h3 {
@@ -347,7 +338,6 @@ body {
   color: #fff;
   font-size: 5.5rem;
   font-weight: 600;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .home p {
@@ -355,7 +345,6 @@ body {
   color: #fff;
   font-weight: 600;
   padding: 1.8rem;
-  text-shadow: 1px 1px 1px #000;
 }
 
 .home img {
@@ -411,7 +400,6 @@ body {
   font-size: 60px;
   font-weight: 400;
   font-family: "Tangerine", cursive;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .about-main-info h2 span {
   color: #dd666c;
@@ -437,7 +425,6 @@ body {
   font-family: "Tangerine", cursive;
   font-size: 4rem;
   font-weight: 600;
-  text-shadow: 1px 1px 1px white;
   min-width: fit-content;
   margin-top: -5rem;
 }
@@ -453,7 +440,6 @@ body {
 .info .alamat {
   font-size: 1.1rem;
   text-align: center;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
 .info .description {
@@ -479,7 +465,6 @@ body {
 .info .acara {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
   font-weight: 500;
   margin-top: 30px;
   font-size: 1.4rem;
@@ -579,8 +564,7 @@ body {
   color: var(--bg);
   font-family: "Tangerine", cursive;
   font-size: 4.5rem;
-  font-weight: 600;
-  text-shadow: 1px 1px 1px white;
+  font-weight: 400;
   min-width: fit-content;
   margin-top: -5rem;
   padding-bottom: 1rem;
@@ -591,6 +575,7 @@ body {
 }
 
 .gift h3 {
+  color: #000;
   font-size: 1.2rem;
   padding-bottom: 2rem;
 }
@@ -598,7 +583,6 @@ body {
 .gift .alamat {
   font-size: 1.1rem;
   text-align: center;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
 .gift .description {
@@ -616,7 +600,6 @@ body {
 .gift .acara {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
   font-weight: 500;
   margin-top: 30px;
   font-size: 1.4rem;
@@ -755,7 +738,6 @@ body {
   color: var(--bg);
   font-family: "Yellowtail", cursive;
   font-size: 4rem;
-  text-shadow: 1px 1px 5px white;
   margin-top: -2.5rem;
   margin-left: 20%;
   padding-bottom: 4rem;
@@ -767,7 +749,6 @@ body {
   color: var(--bg);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4rem;
-  text-shadow: 2px 2px 5px white;
   margin-left: -20%;
 }
 
@@ -843,14 +824,12 @@ body {
   color: #000000;
   font-family: "Yellowtail", cursive;
   font-size: 5rem;
-  text-shadow: 1px 1px 5px var(--pink);
 }
 
 .rsvp p {
   font-size: 1.5rem;
   font-weight: 300;
   color: rgb(0, 0, 0);
-  text-shadow: 1px 1px 5px var(--pink);
 }
 
 .rsvp #komen {
@@ -924,7 +903,6 @@ body {
   color: #fff;
   font-family: "Yellowtail", cursive;
   font-size: 4rem;
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 .thanks .wedding {
@@ -938,14 +916,12 @@ body {
   font-family: "Courier New", Courier, monospace;
   color: #ffffff;
   font-size: 3rem;
-  text-shadow: 1px 1px 5px #000000;
 }
 
 .thanks .wedding p {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   color: #ffffff;
-  text-shadow: 1px 1px 5px #000000;
 }
 
 .thanks .wedding h3 {
@@ -953,7 +929,6 @@ body {
   color: #ffffff;
   font-size: 8rem;
   font-weight: 800;
-  text-shadow: 1px 1px 5px #000000;
 }
 
 .thanks img {
