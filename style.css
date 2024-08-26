@@ -530,7 +530,6 @@ p {
   box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
   -webkit-box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
   -moz-box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
-  animation: pulse 1s ease infinite;
   border-radius: 8px;
 }
 
@@ -903,6 +902,7 @@ p {
   color: #fff;
   font-family: "Yellowtail", cursive;
   font-size: 4rem;
+  text-shadow: 1px 1px 0.5px #000;
 }
 
 .thanks .wedding {
@@ -915,19 +915,13 @@ p {
 .thanks .wedding h2 {
   font-family: "Courier New", Courier, monospace;
   color: #ffffff;
-  font-size: 3rem;
-}
-
-.thanks .wedding p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 2rem;
-  color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .thanks .wedding h3 {
   font-family: "Tangerine", cursive;
   color: #ffffff;
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: 800;
 }
 
