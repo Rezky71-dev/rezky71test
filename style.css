@@ -295,7 +295,7 @@ body {
 /* HOME START */
 
 .home {
-  background: url(img/home.png) center center/cover repeat fixed;
+  background: url(img/home.jpg) center center/cover repeat fixed;
   background-blend-mode: lighten;
   background-position: center;
   background-size: cover;
@@ -312,18 +312,9 @@ body {
 }
 
 .home h1 {
-  color: #fff;
+  color: #000;
   font-family: "Yellowtail", cursive;
-  font-size: 5rem;
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
-}
-
-.gifts h2,
-.profil {
-  color: var(--bg);
-  font-family: "Yellowtail", cursive;
-  font-size: 5rem;
-  text-shadow: 1px 1px 5px white;
+  font-size: 4rem;
 }
 
 .home .wedding {
@@ -335,33 +326,23 @@ body {
 
 .home .wedding h2 {
   font-family: "Courier New", Courier, monospace;
-  color: #fff;
+  color: #000;
   font-size: 2rem;
   font-weight: 600;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .home .wedding h3 {
   font-family: "Tangerine", cursive;
-  color: #fff;
+  color: #000;
   font-size: 7.5rem;
   font-weight: 600;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .home p {
-  font-size: 1.1rem;
-  color: #fff;
+  font-size: 0.8rem;
+  color: #000;
   font-weight: 600;
-  padding: 1.8rem;
-  text-shadow: 1px 1px 1px #000;
-}
-
-.home img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  mix-blend-mode: difference;
+  padding: 0.5rem;
 }
 
 /* HOME END */
@@ -371,7 +352,7 @@ body {
 -------------------------------------------------------------------*/
 
 .about-box {
-  background: url(img/bg5.png) center center/cover repeat fixed;
+  background: url(img/Info-Disqus.jpg) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -416,7 +397,7 @@ body {
 /* BATAS INFO */
 
 .info {
-  background: url(img/bg5.png) center center/cover repeat fixed;
+  background: url(img/Info-Disqus.jpg) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -481,6 +462,10 @@ body {
 }
 
 .info .acara img {
+  padding-bottom: 1.5rem;
+}
+
+.info .acara img:hover {
   animation: myRing1 2s ease 0s infinite normal forwards;
 }
 
@@ -540,7 +525,6 @@ body {
   box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
   -webkit-box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
   -moz-box-shadow: 5px 17px 11px -2px rgba(0, 0, 0, 0.72);
-  animation: pulse 1s ease infinite;
   border-radius: 8px;
 }
 
@@ -559,7 +543,7 @@ body {
 /* WEDDING GIFT START*/
 
 .gift {
-  background: url(img/bg5.png) center center/cover repeat fixed;
+  background: url(img/Info-Disqus.jpg) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -722,7 +706,7 @@ body {
 }
 
 .gallery {
-  background: url(img/bg5.png) center center/cover repeat fixed;
+  background: url(img/Info-Disqus.jpg) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -740,7 +724,7 @@ body {
 }
 
 .gallery h2 {
-  background: url(img/bg5.png) center center/cover repeat fixed;
+  background: url(img/Info-Disqus.jpg) center center/cover repeat fixed;
   background-color: #fff;
   color: var(--bg);
   font-family: "Yellowtail", cursive;
@@ -767,7 +751,7 @@ body {
 }
 
 .gallery2 {
-  background: url(img/bg5.png) center center/cover repeat fixed;
+  background: url(img/Info-Disqus.jpg) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -820,7 +804,7 @@ body {
 
 .rsvp {
   padding-top: 6.5rem;
-  background: url(img/bg5.png) center center/cover repeat fixed;
+  background: url(img/Info-Disqus.jpg) center center/cover repeat fixed;
   background-color: #fff;
   background-position: center;
   background-size: cover;
@@ -890,7 +874,7 @@ body {
 /* THANKS START */
 
 .thanks {
-  background: url(img/thanks.png) center center/cover repeat fixed;
+  background: url(img/Thankyou.jpg) center center/cover repeat fixed;
   background-color: rgba(255, 255, 255, 0);
   background-position: center;
   background-size: cover;
@@ -907,10 +891,9 @@ body {
 }
 
 .thanks h1 {
-  color: #fff;
+  color: #000;
   font-family: "Yellowtail", cursive;
   font-size: 4rem;
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 .thanks .wedding {
@@ -921,25 +904,22 @@ body {
 }
 
 .thanks .wedding h2 {
-  font-family: "Courier New", Courier, monospace;
-  color: #ffffff;
-  font-size: 3rem;
-  text-shadow: 1px 1px 5px #000000;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  font-size: 2rem;
 }
 
 .thanks .wedding p {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
-  color: #ffffff;
-  text-shadow: 1px 1px 5px #000000;
+  color: #000;
 }
 
 .thanks .wedding h3 {
   font-family: "Tangerine", cursive;
-  color: #ffffff;
-  font-size: 8rem;
+  color: #000;
+  font-size: 6rem;
   font-weight: 800;
-  text-shadow: 1px 1px 5px #000000;
 }
 
 .thanks img {
@@ -952,8 +932,8 @@ body {
 /* HOME END */
 
 footer {
-  padding: 3rem;
-  background-color: var(--pink);
+  padding: 1rem;
+  background-color: #9b9675;
   color: white;
 }
 
@@ -1330,6 +1310,9 @@ footer li {
     .hero .card-body {
       font-size: 2rem;
     }
+    .simply-countdown {
+      margin: -20px;
+    }
   }
 
   /* mobile or only mobile */
@@ -1440,6 +1423,22 @@ footer li {
 
     .bukapeta a {
       box-shadow: none;
+    }
+
+    .simply-countdown {
+      margin: -20px;
+    }
+
+    .home p {
+      font-size: 1rem;
+    }
+
+    .home .wedding h3 {
+      font-size: 5rem;
+    }
+
+    .about-main-info h2 {
+      font-size: 4rem;
     }
   }
 }
